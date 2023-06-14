@@ -16,3 +16,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/eceran', function () {
+    return view('eceran');
+});
+Route::get('/grosir', function () {
+    return view('grosir');
+});
+Route::get('/supplier', function () {
+    return view('supplier');
+});
+Route::get('/barang', function () {
+    return view('barang');
+});
+Route::get('/keuangan', function () {
+    return view('keuangan');
+});
+Route::get('/pembelian', function () {
+    return view('pembelian');
+});
+Route::get('/pelanggan', function () {
+    return view('pelanggan');
+});
+Route::get('/kategori', function () {
+    return view('kategori');
+});
